@@ -1,3 +1,7 @@
+body{
+    background-color: bisque;
+}
+
 :root {
     --color-sunny: #F67B21;
     --color-mimosa: #F6BB21;
@@ -25,7 +29,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    
     line-height: 49px;
     margin-bottom: 30px;
 }
@@ -65,6 +68,46 @@
     font-weight: 500;
     font-size: 13px;
     line-height: 28px;  
-   
     margin-bottom: 30px;
+}
+
+.objetperdu {
+    background-color: var(--color-sunny);
+    color: var(--color-snowy);
+    width: 217px;
+    height: 53px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 53px;
+    border-radius: 43px 43px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.objettrouve {
+    background-color: var(--color-frog);
+    color: var(--color-snowy);
+    width: 217px;
+    height: 53px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 53px;
+    border-radius: 43px 43px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.facebook {   
+    background-color: var(--color-snowy)
+    width: 195px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#logofb {
+    width: 45px;
+    height: 45px;
 }
