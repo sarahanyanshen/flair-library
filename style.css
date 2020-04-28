@@ -1,5 +1,5 @@
 :root {
-    --space-m: 50px;
+    --margin-bottom: 80px;
     --color-sunny: #F67B21;
     --color-mimosa: #F6BB21;
     --color-frog: #7BC92E;
@@ -43,7 +43,7 @@ h2 {
 .colorgroup {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: var(--space-m);
+    margin-bottom: var(--margin-bottom);
 }
 
 #sunny{
@@ -95,6 +95,10 @@ h2 {
 }
 
 /*-----------------------------typography-------------------------*/
+
+.typo {
+    margin-bottom: var(--margin-bottom);
+}
 
 .titreh1 {
     font-family: var(--font-family);
