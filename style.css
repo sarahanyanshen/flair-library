@@ -1,118 +1,103 @@
-body{
-    background-color: bisque;
-}
-
-
 :root {
+    --space-m: 50px;
     --color-sunny: #F67B21;
     --color-mimosa: #F6BB21;
     --color-frog: #7BC92E;
     --color-snowy: #FFFFFF;
     --color-darknight: #000000;
     --color-concret: #6B6B6B;
+    --width-color: 40px;
+    --height-color: 40px;
+    --radius-color: 20px;
     --font-family:'Roboto', sans-serif;
-    --space-m: 100px;
+    --shadow-primary: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --radius-primary: 24.5px;
+    --width-primary: 217px;
+    --height-primary: 49px;
+    --fontsize-primary: 24px;
+    --fontweight-primary: 500;
 }
 
-.bouton {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+body {
+    background-color: bisque;
 }
-.bouton:hover {
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+}
+
+h2 {
+    color: var(--color-concret);
+}
+/*-----------------------------COLOR-------------------------*/
+.colorgroup {
+     display: flex;
+    justify-content: flex-start;
+    margin-bottom: var(--space-m);
+}
+
+#sunny{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
     background-color: var(--color-sunny);
 }
-.startachat {
+
+#mimosa{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-mimosa);
+}
+
+#frog{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-frog);
+}
+
+#snowy{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
     background-color: var(--color-snowy);
+}
+
+#darknight{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-darknight);
+}
+
+#concret{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-concret);
+}
+
+/*-----------------------------typography-------------------------*/
+
+
+
+/*-----------------------------bouton primary-------------------------*/
+
+.primary {
+    background-color: var(--color-snowy);
+    box-shadow: var(--shadow-primary);
     color: var(--color-sunny);
-    width: 217px;
-    height: 49px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 24.5px;
-    text-align: center;
+    border-radius: var(--radius-primary);
+    width: var(--width-primary);
+    height: var(--height-primary);
     font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 49px;
-    margin-bottom: var(--space-m);
+    font-size: var(--textsize-primary);
+    font-weight: var(--fontweight-primary);
 }
 
-.next {
-    background-color: var(--color-frog);
-    color: var(--color-snowy);
-    width: 59px;
-    height: 30px;  
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 30px;    
-    margin-bottom: var(--space-m);
-}
-
-.done {
-    background-color: var(--color-frog);
-    color: var(--color-snowy);
-    width: 59px;
-    height: 30px;  
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 30px;    
-    margin-bottom: 30px;  
-}
-
-.signup {
-    background-color: var(--color-sunny);
-    color: var(--color-snowy);
-    width: 117px;
-    height: 28px;
-    text-align: center;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 28px;  
-    margin-bottom: 30px;
-}
-
-.objetperdu {
-    background-color: var(--color-sunny);
-    color: var(--color-snowy);
-    width: 217px;
-    height: 53px;
-    text-align: center;
-    font-family: var(--font-family);
-    font-size: 24px;
-    line-height: 53px;
-    border-radius: 43px 43px 0px 0px;
-    margin-bottom: 30px;
-}
-
-.objettrouve {
-    background-color: var(--color-frog);
-    color: var(--color-snowy);
-    width: 217px;
-    height: 53px;
-    text-align: center;
-    font-family: var(--font-family);
-    font-size: 24px;
-    line-height: 53px;
-    border-radius: 43px 43px 0px 0px;
-    margin-bottom: 30px;
-}
-
-.facebook {   
-    background-color: var(--color-snowy)
-    width：195px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-#logofb {
-    width: 45px;
-    height: 45px;
+.primary:hover {
+    background-color: var(--color-mimosa);
 }
