@@ -9,6 +9,7 @@
     --width-color: 40px;
     --height-color: 40px;
     --radius-color: 20px;
+    --marginright-color: 15px;
     --font-family:'Roboto', sans-serif;
     --shadow-primary: 0px 4px 4px rgba(0, 0, 0, 0.25);
     --radius-primary: 24.5px;
@@ -43,6 +44,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-sunny);
+    margin-right: var(--marginright-color);
 }
 
 #mimosa{
@@ -50,6 +52,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-mimosa);
+    margin-right: var(--marginright-color);
 }
 
 #frog{
@@ -57,6 +60,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-frog);
+    margin-right: var(--marginright-color);
 }
 
 #snowy{
@@ -64,6 +68,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-snowy);
+    margin-right: var(--marginright-color);
 }
 
 #darknight{
@@ -71,6 +76,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-darknight);
+    margin-right: var(--marginright-color);
 }
 
 #concret{
@@ -78,6 +84,7 @@ h2 {
     height: var(--height-color);
     border-radius: var(--radius-color);
     background-color: var(--color-concret);
+    margin-right: var(--marginright-color);
 }
 
 /*-----------------------------typography-------------------------*/
