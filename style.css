@@ -11,12 +11,19 @@
     --radius-color: 20px;
     --marginright-color: 15px;
     --font-family:'Roboto', sans-serif;
+    --fontsize-h1: 24px;
+    --fontweight-h1: bold;
+
     --shadow-primary: 0px 4px 4px rgba(0, 0, 0, 0.25);
     --radius-primary: 24.5px;
     --width-primary: 217px;
     --height-primary: 49px;
     --fontsize-primary: 24px;
     --fontweight-primary: 500;
+    --width-secondary: 59px;
+    --height-secondary: 30px;
+    --fontsize-secondary: 14px;
+    --fontweight-secondary: normal;
 }
 
 
@@ -89,7 +96,11 @@ h2 {
 
 /*-----------------------------typography-------------------------*/
 
-
+.titreh1 {
+    font-family: var(--font-family);
+    font-size: var(--fontsize-h1);
+    font-family: var(--fontweight-h1);
+}
 
 /*-----------------------------bouton primary-------------------------*/
 
@@ -106,5 +117,21 @@ h2 {
 }
 
 .primary:hover {
+    background-color: var(--color-mimosa);
+}
+
+/*-----------------------------bouton secondary-------------------------*/
+
+.secondary {
+    background-color: var(--color-frog);
+    color: var(--color-snowy);
+    width: var(--width-secondary);
+    height: var(--height-secondary);
+    font-family: var(--font-family);
+    font-size: var(--fontsize-secondary);
+    font-weight: var(--fontweight-secondary);
+}
+
+.secondary:hover {
     background-color: var(--color-mimosa);
 }
