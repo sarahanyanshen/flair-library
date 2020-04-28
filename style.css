@@ -33,7 +33,7 @@ h2 {
 }
 /*-----------------------------COLOR-------------------------*/
 .colorgroup {
-     display: flex;
+    display: flex;
     justify-content: flex-start;
     margin-bottom: var(--space-m);
 }
