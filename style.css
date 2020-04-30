@@ -24,6 +24,11 @@
     --height-secondary: 30px;
     --fontsize-secondary: 14px;
     --fontweight-secondary: normal;
+
+    --width-avatar: 16px;
+    --height-avatar: 16px;
+    --width-photoobjetperdu: 120px;
+    --height-photoobjetperdu: 120px;
 }
 
 
@@ -108,6 +113,10 @@ h2 {
 
 /*-----------------------------bouton primary-------------------------*/
 
+#librarybutton {
+    margin-bottom: var(--margin-bottom);
+}
+
 .primary {
     background-color: var(--color-snowy);
     box-shadow: var(--shadow-primary);
@@ -138,4 +147,16 @@ h2 {
 
 .secondary:hover {
     background-color: var(--color-mimosa);
+}
+
+/*-----------------------------organisme-------------------------*/
+
+.avatar {
+    width: var(--width-avatar);
+    height: var(--height-avatar);
+}
+
+.photoobjetperdu {
+    width: var(--width-photoobjetperdu);
+    height: var(--height-photoobjetperdu);
 }
