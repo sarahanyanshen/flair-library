@@ -6,6 +6,8 @@
     --color-snowy: #FFFFFF;
     --color-darknight: #000000;
     --color-concret: #6B6B6B;
+    --color-bg-disable: #DFDFDF;
+    --color-text-disable: #B2B2B2;
     --width-color: 40px;
     --height-color: 40px;
     --radius-color: 20px;
@@ -99,6 +101,21 @@ h2 {
     margin-right: var(--marginright-color);
 }
 
+#bg-disable{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-bg-disable);
+    margin-right: var(--marginright-color);
+}
+
+#text-disable{
+    width: var(--width-color);
+    height: var(--height-color);
+    border-radius: var(--radius-color);
+    background-color: var(--color-text-disable);
+    margin-right: var(--marginright-color);
+}
 /*-----------------------------typography-------------------------*/
 
 .typo {
@@ -147,6 +164,20 @@ h2 {
 
 .secondary:hover {
     background-color: var(--color-mimosa);
+}
+
+/*-----------------------------bouton disable-------------------------*/
+
+.disable {
+    background-color: var(--color-bg-disable);
+    box-shadow: var(--shadow-primary);
+    color: var(--color-text-disable);
+    border-radius: var(--radius-primary);
+    width: var(--width-primary);
+    height: var(--height-primary);
+    font-family: var(--font-family);
+    font-size: var(--textsize-primary);
+    font-weight: var(--fontweight-primary);
 }
 
 /*-----------------------------organisme-------------------------*/
